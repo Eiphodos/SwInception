@@ -2,13 +2,20 @@
 
 Official implementation of **SwInception — Local Attention Meets Convolutions**, published in *Pattern Recognition and Artificial Intelligence*, 2025.
 
-> David Hagerman, Roman Naeem, Jakob Lindqvist, Carl Lindström, Fredrik Kahl, Lennart Svensson
+> David Hagerman, Roman Naeem, Jakob Lindqvist, Carl Lindström, Fredrik Kahl, Lennart Svensson  
+> [Springer](https://link.springer.com/chapter/10.1007/978-981-97-8702-9_1)
 
 ---
 
 ## Abstract
 
 Sparse vision transformers have gained popularity as efficient encoders for medical volumetric segmentation, with Swin emerging as a prominent choice. Swin uses local attention to reduce complexity and yields excellent performance for many tasks but still tends to overfit on small datasets. To mitigate this weakness, we propose a novel architecture that further enhances Swin's inductive bias by introducing Inception blocks in the feed-forward layers. The introduction of these multi-branch convolutions enables more direct reasoning over local, multi-scale features within the transformer block. We have also modified the decoder layers in order to capture finer details using fewer parameters. We demonstrate a performance improvement on eleven different medical datasets through extensive experimentation. We specifically showcase advancements over the previous state-of-the-art backbones on benchmark challenges like the Medical Segmentation Decathlon and Beyond the Cranial Vault. By showing that the existing inductive bias in Swin can be further improved, our work presents a promising avenue for enhancing the capabilities of sparse vision transformers for both medical and natural image segmentation tasks.
+
+---
+
+## Architecture
+
+![SwInception Architecture](arch.png)
 
 ---
 
