@@ -1,0 +1,11 @@
+monai>=0.8.1
+torch>=1.9.1
+tensorboardX
+neptune-client>=0.14.2
+numpy
+timm
+nibabel
+tqdm
+scipy
+einops
+batchgenerators
